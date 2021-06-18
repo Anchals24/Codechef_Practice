@@ -2,7 +2,6 @@
 """ Solution 1 : Runtime Error """
 
 x , y   = [int(x) for x in input().split()]
-
 if int(x) % 5 == 0:
     x = float(x) + 0.50
     y = float(y) - float(x)
