@@ -19,7 +19,7 @@ for t in range(T):
 
 
 #It was using list.
-#Complexity : O(1)
+#Complexity : O(n)
 
 #Solution 2:
 
@@ -32,3 +32,5 @@ for t in range(T):
     for r in range(leng):
         add = add + int(N[r])
     print(add)
+
+#Complexity : O(n)
