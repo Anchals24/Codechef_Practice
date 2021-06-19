@@ -43,3 +43,17 @@ for t in range(T):
 
 #Complexity : O(T * n)
 
+#Solution 4 : Another Approach...
+
+T = int(input())
+for t in range(T):
+    n = int(input())
+    last_digit = n % 10
+    while n != 0:
+        first_digit = n % 10
+        n = n // 10
+    sum = last_digit + first_digit
+    print(sum)
+
+#Complexity : O(T * n)
+
