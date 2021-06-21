@@ -12,12 +12,9 @@ for t in range(T):
         Ans = (PT + A) * 10
     print(Ans)
     
+#Complexity : O(T)
     
 #Question : Golf
-
-#First Approach : Got TLE...
-
-
 #Optimized Approach
 
 T = int(input())
@@ -35,3 +32,5 @@ for t in range(T):
         print("Yes")
     else:
         print("No")
+        
+#Time Complexity : O(T)
