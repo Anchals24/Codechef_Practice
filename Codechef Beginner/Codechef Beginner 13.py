@@ -1,3 +1,8 @@
+""" 
+Codechef Beginner :
+Problem :  THE LEAD GAME.
+"""
+
 Rounds = int(input())
 Play1_S = []
 Play2_S = []
