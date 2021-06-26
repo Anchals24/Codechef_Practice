@@ -36,3 +36,5 @@ for l in range(leng):
 answer = max(lead_runs)
 leader= lead_runs.index(answer)
 print(Winners[leader],answer)
+
+# time complexity : O(n)
