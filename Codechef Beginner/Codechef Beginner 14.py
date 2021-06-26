@@ -10,3 +10,5 @@ for t in range(T):
         print('Thanks for helping Chef!')
     else:
         print('-1')
+
+#Time complexity : O(T)
