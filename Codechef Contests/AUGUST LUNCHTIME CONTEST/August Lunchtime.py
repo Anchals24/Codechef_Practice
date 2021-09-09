@@ -17,3 +17,28 @@ for t in range(T):
         print("0")
 
 #Problem2 : 
+#Solution1 : TLE
+
+T = int(input())
+for t in range(T):
+    N = int(input())
+    add = 0
+    maxi = 0
+    for n in range(1 , N+1):
+        add = add + n 
+        if add % 2 == 0:
+            if add > maxi:
+                maxi = n 
+    print(maxi)
+    
+#Solution2 : Optimized
+
+T = int(input())
+for t in range(T):
+    N = int(input())
+    summ = N*(N+1)//2
+    if summ % 2 == 0:
+        print(N)
+    else:
+        print(N-1)
+
